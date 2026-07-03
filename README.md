@@ -1,6 +1,6 @@
-# StrokeAI – Machine Learning Based Stroke Risk Prediction System
+# Stroke Predictor AI – Machine Learning Based Stroke Risk Prediction System
 
-StrokeAI is a full-stack web application that predicts an individual's risk of stroke using Machine Learning. The system compares multiple classification algorithms, evaluates their performance, and deploys the best-performing model through an interactive web interface.
+Stroke Predictor AI is a full-stack web application that predicts an individual's risk of stroke using Machine Learning. The system compares multiple classification algorithms, evaluates their performance, and deploys the best-performing model through an interactive web interface.
 
 ---
 
@@ -71,7 +71,7 @@ After comparison, **Logistic Regression** was selected as the final prediction m
 ## Project Structure
 
 
-StrokeAI/
+Stroke Prediction/
 │
 ├── backend/
 │   ├── saved_models/
