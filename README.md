@@ -1,10 +1,10 @@
-# 🧠 StrokeAI – Machine Learning Based Stroke Risk Prediction System
+# StrokeAI – Machine Learning Based Stroke Risk Prediction System
 
 StrokeAI is a full-stack web application that predicts an individual's risk of stroke using Machine Learning. The system compares multiple classification algorithms, evaluates their performance, and deploys the best-performing model through an interactive web interface.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Stroke is one of the leading causes of death and long-term disability worldwide. Early identification of high-risk individuals can help enable timely medical intervention.
 
@@ -12,7 +12,7 @@ This project uses patient healthcare data to train Machine Learning models capab
 
 ---
 
-## ✨ Features
+## Features
 
 - Predict stroke risk from patient health information
 - User-friendly React interface
@@ -25,7 +25,7 @@ This project uses patient healthcare data to train Machine Learning models capab
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
 - React.js
@@ -48,7 +48,7 @@ This project uses patient healthcare data to train Machine Learning models capab
 
 ---
 
-## 📊 Machine Learning Models
+## Machine Learning Models
 
 The following classification models were trained and evaluated:
 
@@ -62,16 +62,15 @@ The following classification models were trained and evaluated:
 - Precision
 - Recall
 - F1 Score
-- ROC-AUC
 - Confusion Matrix
 
 After comparison, **Logistic Regression** was selected as the final prediction model due to its superior Recall and F1 Score, making it more effective at identifying actual stroke cases.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```
+
 StrokeAI/
 │
 ├── backend/
@@ -90,61 +89,14 @@ StrokeAI/
 │
 ├── .gitignore
 └── README.md
-```
+
 
 ---
 
-## 🚀 Installation
 
-### 1. Clone the repository
+## Workflow
 
-```bash
-git clone https://github.com/yourusername/StrokeAI.git
 
-cd StrokeAI
-```
-
----
-
-### 2. Backend Setup
-
-```bash
-cd backend
-
-pip install -r requirements.txt
-
-python app.py
-```
-
-The Flask server starts at:
-
-```
-http://127.0.0.1:5000
-```
-
----
-
-### 3. Frontend Setup
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-The React application starts at:
-
-```
-http://localhost:5173
-```
-
----
-
-## 📈 Workflow
-
-```
 Patient Input
       │
       ▼
@@ -161,11 +113,11 @@ Machine Learning Model
       │
       ▼
 Stroke Risk Prediction
-```
+
 
 ---
 
-## 📷 Application Pages
+## Application Pages
 
 - Home
 - Predict Stroke Risk
@@ -174,7 +126,7 @@ Stroke Risk Prediction
 
 ---
 
-## 📌 Dataset
+## Dataset
 
 The project uses the **Healthcare Stroke Dataset**, containing patient demographic and medical information such as:
 
@@ -191,7 +143,7 @@ The project uses the **Healthcare Stroke Dataset**, containing patient demograph
 
 ---
 
-## 🎯 Future Improvements
+## Future Improvements
 
 - Deploy the application online
 - Add probability/confidence score
@@ -202,7 +154,7 @@ The project uses the **Healthcare Stroke Dataset**, containing patient demograph
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Team TERABYTE**
 
@@ -210,6 +162,6 @@ Machine Learning & Full Stack Development Project
 
 ---
 
-## 📄 License
+## License
 
 This project is developed for educational and academic purposes.
