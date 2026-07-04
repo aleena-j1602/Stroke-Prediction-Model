@@ -85,7 +85,6 @@ Stroke Prediction/
 
 │   └── healthcare-dataset-stroke-data.csv
 
-│
 ├── frontend/
 
 │   ├── public/
@@ -98,7 +97,6 @@ Stroke Prediction/
 
 │   └── index.html
 
-│
 ├── .gitignore
 
 └── README.md
@@ -130,7 +128,7 @@ Machine Learning Model
 
       
       ▼
-      
+
 Stroke Risk Prediction
 
 
