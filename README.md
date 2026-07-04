@@ -72,23 +72,37 @@ After comparison, **Logistic Regression** was selected as the final prediction m
 
 
 Stroke Prediction/
-│
+
 ├── backend/
+
 │   ├── saved_models/
+
 │   ├── app.py
+
 │   ├── train.py
+
 │   ├── requirements.txt
+
 │   └── healthcare-dataset-stroke-data.csv
+
 │
 ├── frontend/
+
 │   ├── public/
+
 │   ├── src/
+
 │   ├── package.json
+
 │   ├── vite.config.js
+
 │   └── index.html
+
 │
 ├── .gitignore
+
 └── README.md
+
 
 
 ---
@@ -98,20 +112,25 @@ Stroke Prediction/
 
 
 Patient Input
-      │
+
       ▼
+
 React Frontend
-      │
+
       ▼
 Flask API
-      │
+
       ▼
+
 Data Preprocessing
-      │
+
       ▼
+
 Machine Learning Model
-      │
+
+      
       ▼
+      
 Stroke Risk Prediction
 
 
