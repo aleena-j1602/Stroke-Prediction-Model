@@ -1,5 +1,3 @@
-import React from "react";
-
 function ResultCard({ result }) {
   const highRisk = result.final_prediction === 1;
 
