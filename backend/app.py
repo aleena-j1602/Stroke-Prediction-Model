@@ -133,11 +133,14 @@ def predict():
 
     scaled_df = scaler.transform(df)
 
-    pred_lr = int(
-        lr.predict(scaled_df)[0]
-    )
+    # Predict stroke class
+    pred_lr = int(lr.predict(scaled_df)[0])
 
+    # Get stroke probability
+    probabilities = lr.predict_proba(scaled_df)[0]
 
+    stroke_probability = float(probabilities[1]) * 100
+    no_stroke_probability = float(probabilities[0]) * 100
 
     final_prediction = pred_lr
 
@@ -145,10 +148,11 @@ def predict():
 
         "final_prediction": final_prediction,
 
-        "risk":
-            "High Risk"
-            if final_prediction == 1
-            else "Low Risk"
+        "risk": "High Risk" if final_prediction == 1 else "Low Risk",
+
+        "stroke_probability": round(stroke_probability, 2),
+
+        "no_stroke_probability": round(no_stroke_probability, 2)
 
     })
 
