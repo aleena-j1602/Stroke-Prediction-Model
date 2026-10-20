@@ -32,7 +32,7 @@ function Predict() {
       setLoading(true);
 
       const res = await axios.post(
-        "https://stroke-predictor-ai.onrender.com/predict",
+        "https://stroke-predictor-ai-backend.onrender.com/predict",
         form
       );
 
